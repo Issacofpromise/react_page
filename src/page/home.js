@@ -73,7 +73,7 @@ import {useState} from 'react';
   const [id, setId]=useState(null);
   const [neid,setneid]=useState(2);
   const [tsp, setTsp]=useState([
-    {id:1, title:'ha....', body:'html is...'}
+    {id:1, title:'Java', body:'Java is...'}
   ]);
   let ctxc=null;
   let ctt = null;
@@ -130,7 +130,7 @@ import {useState} from 'react';
       set('READ');
   }}/>}
   return (<div>
-  <Header title='MYL....'onChangeMode={()=>{set('WELCOME')}}/>
+  <Header title='Message Board'onChangeMode={()=>{set('WELCOME')}}/>
     <Nav tsp={tsp} onChangeMode={(id)=>{
       set('READ');
       setId(id);
